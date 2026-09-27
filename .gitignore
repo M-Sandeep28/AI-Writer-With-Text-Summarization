@@ -1,0 +1,30 @@
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.venv/
+ENV/
+env/
+
+# IDE & Editor Configs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Environment & Secrets
+.env
+.streamlit/secrets.toml
+
+# Local Database & Logs
+app.db
+*.log
+
+# OS Generated
+.DS_Store
+Thumbs.db
